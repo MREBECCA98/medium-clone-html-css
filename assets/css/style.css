@@ -1,0 +1,113 @@
+body {
+  font-family: "spectral", serif;
+  position: relative;
+}
+.conteiner {
+  margin-inline: auto;
+  padding: 0;
+
+  max-width: 800px;
+}
+header {
+  gap: 20%;
+  justify-content: space-evenly;
+  background-color: #ffc017;
+  display: flex;
+  border-bottom: 1px solid #12121299;
+}
+.header {
+  display: flex;
+}
+.logo {
+  display: flex;
+}
+.logo img {
+  width: 80%;
+}
+.navbar {
+  gap: 25px;
+  display: flex;
+}
+.navbar li {
+  display: flex;
+  font-size: 12px;
+}
+
+/* STAY CURIOUS */
+.section {
+  border-bottom: 1px solid #12121299;
+  background-color: #ffc017;
+  display: flex;
+}
+.stayCurious {
+  display: flex;
+}
+.firstDiv {
+  align-items: flex-start;
+  flex-direction: column;
+  display: flex;
+}
+.firstDiv h1 {
+  font-family: "roboto", sans-serif;
+  margin: 0;
+  font-size: 55px;
+  margin-top: 30px;
+}
+.firstDiv p {
+  width: 68%;
+}
+.firstDiv button {
+  height: 30px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  border-radius: 30px;
+  width: 35%;
+  color: white;
+  background-color: black;
+}
+.imgM {
+  display: flex;
+  height: 280px;
+  width: 430px;
+}
+
+/* TRENDING */
+.title {
+  display: flex;
+  margin-top: 50px;
+}
+
+.title img {
+  margin-right: 15px;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+.card {
+  display: flex;
+  width: 33.333%;
+  flex-direction: column;
+  align-items: center;
+}
+.number {
+  font-weight: bold;
+  color: #e6e7e6;
+  font-size: 30px;
+  margin-right: 15px;
+}
+.card-header {
+  display: flex;
+  align-items: baseline;
+}
+.imgCircle {
+  border-radius: 50%;
+}
+.changeText img {
+  width: 10%;
+}
+
+.changeText h4 {
+  display: inline;
+}
